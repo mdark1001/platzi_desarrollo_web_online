@@ -42,6 +42,15 @@ header{
 }
 .portada button{
   margin-bottom: 70px;
+  height: 35px;
+  width: 120px;
+  font-size: 18px;
+  padding: 5px;
+  color: white;
+  background-color: #f35b4e;
+  border: 0;
+  border-radius: 0.5em;
+
 }
 .logotipo,.menu, .menu li{
   display: inline-block;
@@ -70,9 +79,13 @@ header{
 }
 .guitarra-1 img{
   float: right;
+  position: relative;
+  bottom: 125px;
+
 }
 .guitarra-2 img{
   float: left;
+  position: relative;
 }
 .contenedor-guitarra-a{
   margin-left: 10px;
